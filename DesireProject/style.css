@@ -1,0 +1,42 @@
+
+.container {
+    background-color: darkcyan;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: palevioletred;
+    margin: 5px;
+    height: 200px;
+    width: 30%;
+    font-size: 100px;
+    font-family: helvetica;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+}
+
+.item:nth-child(5){
+    color: palevioletred;
+    background-color: bisque;
+}
+
+.item:hover > p{
+    animation:spin .5s forwards;
+}
+
+@keyframes spin {
+    
+    100% {
+        transform: scale(1.5);
+    }
+    
+}
+
+

@@ -1,0 +1,48 @@
+
+.container {
+    display: flex;
+    background-image: url(http://ledecoraustralia.com/wp-content/uploads/2017/09/cottage_wall.jpg);
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    
+    
+    
+}
+
+.box {
+    padding: 0px;
+    margin: 8px;
+    background-color: #CB95F5;
+    color: azure;
+    
+    width: 25%;
+    height: 200px;
+    
+    font-size: 100px;
+    font-family: Helvetica;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.box:nth-child(5){
+    background-color: beige;
+    color: #CB95F5;
+}
+
+.box:hover{
+    transition: all 0.5s;
+    font-size: 190px;
+}
+
+
+
+
+
+
+
+
+
